@@ -1,34 +1,38 @@
-# Blazor DataGrid - WebAPIAdaptor with CRUD Operations
+# Blazor DataGrid — Web API Adaptor with CRUD Operations
 
-This example shows that how to bind remote data and perform CRUD operations at server by using WebAPIAdaptor.
+A Blazor Web App demonstrating how to bind remote data and perform CRUD operations at the server using the [Syncfusion Web API Adaptor](https://blazor.syncfusion.com/documentation/datagrid/connecting-to-adaptors/web-api-adaptor).
 
 ## Features
 
-* Fast rendering with virtualization and row/column virtualization
-* Sorting, filtering, grouping, and searching capabilities
-* Inline, batch, and dialog editing modes
-* Template columns, column resizing, reordering, and freezing
-* Excel and PDF export (requires additional Syncfusion export packages)
+* **Data Binding**: Remote data binding via Web API Adaptor
+* **CRUD Operations**: Add, edit, delete, and update records inline
+* **Sorting**: Column-based ascending/descending sorting
+* **Filtering**: Built-in column filtering
+* **Virtualization**: Fast rendering with row/column virtualization
+* **Template Support**: Template columns, resizing, and reordering
+* **Export**: Excel and PDF export (requires additional Syncfusion packages)
 
 ## Prerequisites
 
-* Visual Studio 2022 or later
-* Visual Studio Code
+* [Visual Studio 2022](https://visualstudio.microsoft.com/vs/) or later
+* [Visual Studio Code](https://code.visualstudio.com/)
+* [.NET SDK 8.0](https://dotnet.microsoft.com/download/dotnet/8.0)
 
-## How to run the project
+## Getting Started
 
-1. Clone or download this repository to a location in your system.
-2. Open the solution file using the Visual Studio or Visual Studio code.
-3. Restore the NuGet packages by rebuilding the solution or run `dotnet restore`.
-4. Build the project to ensure there are no compilation errors.
-5. Run the project.
+### Clone the repository
 
-Optional CLI Commands:
-
-```powershell
-dotnet restore
-dotnet build
+```bash
+git clone https://github.com/SyncfusionExamples/Blazor-DataGrid-WebAPIAdaptor-CRUD-SortFilter.git
+cd Blazor-DataGrid-WebAPIAdaptor-CRUD-SortFilter
 ```
+
+### Run with Visual Studio
+
+1. Open the solution file using Visual Studio 2022 or later.
+2. Restore the NuGet packages by rebuilding the solution.
+3. Build the project to ensure there are no compilation errors.
+4. Run the project.
 
 ## References
 
